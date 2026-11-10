@@ -5,7 +5,7 @@ export function App() {
   return (
     <main className="game-app">
       <header className="site-header">
-        <a className="brand-mark" href="/" aria-label="Arcadia, startpagina">
+        <a className="brand-mark" href="./" aria-label="Arcadia, startpagina">
           <img className="logo-light" src={logoLight} alt="Arcadia scholen" />
           <img className="logo-dark" src={logoDark} alt="Arcadia scholen" />
         </a>

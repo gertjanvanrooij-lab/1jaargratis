@@ -6,4 +6,8 @@ test('de startpagina toont het spel', async ({ page }) => {
   await expect(page).toHaveTitle('Wie zit goed? | Arcadia')
   await expect(page.getByRole('heading', { name: 'Wie zit goed?' })).toBeVisible()
   await expect(page.getByRole('img', { name: 'Arcadia scholen' })).toBeVisible()
+  await expect(page.getByRole('link', { name: 'Arcadia, startpagina' })).toHaveAttribute(
+    'href',
+    './',
+  )
 })
