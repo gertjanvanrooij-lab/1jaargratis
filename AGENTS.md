@@ -37,6 +37,6 @@ De app gebruikt React met Vite. Firebase Realtime Database deelt de tijdelijke s
 Gebruik vanuit de projectmap:
 - `npm run dev` om de app lokaal te starten.
 - `npm run build` om de publicatieversie te bouwen.
-- `npm test` om de tests uit te voeren; configureer dit script met Vitest wanneer de app wordt aangemaakt.
-
-Deze commando's zijn nog niet uitvoerbaar: er is nog geen app of `package.json`. Richt de scripts in bij het aanmaken van de app. Zet hier geen lijst in van wat getest moet worden; testen horen bij elk issue.
+- `npm test` om de Vitest- en Playwright-tests uit te voeren.
+- `npm run test:unit` om alleen de Vitest-tests uit te voeren.
+- `npm run test:e2e` om alleen de Playwright-tests met de echte app uit te voeren.

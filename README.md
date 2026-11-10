@@ -1,5 +1,9 @@
 # Mijn eerste echte project
 
+## Live website
+
+[Open de website](https://gertjanvanrooij-lab.github.io/1jaargratis/).
+
 Dit is een startpunt voor een eigen app of website die je met AI bouwt. Je hebt geen programmeerervaring nodig. De AI schrijft de code; deze template zorgt ervoor dat je project een solide basis krijgt en dat je er later zelfstandig mee verder kan.
 
 Je krijgt:
