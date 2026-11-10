@@ -32,4 +32,11 @@ De projectinstellingen staan in `.codex/config.toml`; uitleg en beperkingen in `
 
 ## Projectspecifieke aanvullingen
 
-Na `$setup`: vul hier de gekozen bouwstenen en geverifieerde commando's om te ontwikkelen, testen en bouwen aan. Bedenk geen commando's voordat het framework is gekozen en aangemaakt. Zet hier geen lijst van wat getest moet worden.
+De app gebruikt React met Vite. Firebase Realtime Database deelt de tijdelijke spelstand live tussen toestellen. De website wordt gepubliceerd op GitHub Pages en gebruikt het design system in `design-system/`.
+
+Gebruik vanuit de projectmap:
+- `npm run dev` om de app lokaal te starten.
+- `npm run build` om de publicatieversie te bouwen.
+- `npm test` om de tests uit te voeren; configureer dit script met Vitest wanneer de app wordt aangemaakt.
+
+Deze commando's zijn nog niet uitvoerbaar: er is nog geen app of `package.json`. Richt de scripts in bij het aanmaken van de app. Zet hier geen lijst in van wat getest moet worden; testen horen bij elk issue.
